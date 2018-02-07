@@ -1,0 +1,24 @@
+{
+  "name": "Salary_Calc_WNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arkmer/Salary_Calc_WNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arkmer/Salary_Calc_WNode/issues"
+  },
+  "homepage": "https://github.com/Arkmer/Salary_Calc_WNode#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

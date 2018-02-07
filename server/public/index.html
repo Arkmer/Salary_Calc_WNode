@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NAME</title>
+    <script src="vendors/jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="scripts/salaryCalc.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <h1>Enlisted Soldier Base Pay Calc</h1>
+    <table id="inputTable">
+      <tr id="inputLebels">
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>Rank/Grade</td>
+        <td>Years of Service</td>
+        <td>MOS</td>
+        <td>DoDID</td>
+      </tr>
+      <tr id="inputInfo">
+        <td><input type="text" id="ipNameFirst" value="John"></input></td>
+        <td><input type="text" id="ipNameLast" value="Doe"></input></td>
+        <td>
+          <select id="rankGrade">
+            <option value="1">PVT/E-1</option>
+            <option value="2">PV2/E-2</option>
+            <option value="3">PFC/E-3</option>
+            <option value="4">SPC/E-4</option>
+            <option value="5">CPL/E-4</option>
+            <option value="6">SGT/E-5</option>
+            <option value="7">SSG/E-6</option>
+            <option value="8">SFC/E-7</option>
+            <option value="9">1SG/E-8</option>
+            <option value="10">MSG/E-8</option>
+            <option value="11">SGM/E-9</option>
+            <option value="12">CSM/E-9</option>
+          </select>
+        </td>
+        <td><input type="number" id="ipYears" value="0"></input></td>
+        <td><input type="text" id="ipMOS" value="12N"></input></td>
+        <td><input type="number" id="ipDoDID" value="1"></input></td>
+      </tr>
+      <tr>
+        <td>
+          <button type="button" id="ipSoldier">Input Soldier</button>
+        </td>
+      </tr>
+    </table>
+    <table id="outputSoldier">
+      <tr id="outputLabels">
+        <td id="rank">Rank</td>
+        <td id="name">Name</td>
+        <td id="mos">MOS</td>
+        <td id="base">Base Pay</td>
+        <td id="annual">Annual</td>
+        <td id="id">DoDID</td>
+        <td id="buttonColumn">Buttons</td>
+      </tr>
+    </table>
+    <table id="expendLoc">
+
+    </table>
+  </body>
+</html>
